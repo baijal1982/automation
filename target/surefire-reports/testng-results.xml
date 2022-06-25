@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SeleniumGridDocker" duration-ms="30739" started-at="2022-06-25T20:25:28 ICT" finished-at="2022-06-25T20:25:59 ICT">
+    <groups>
+    </groups>
+    <test name="Firefox Test" duration-ms="30739" started-at="2022-06-25T20:25:28 ICT" finished-at="2022-06-25T20:25:59 ICT">
+      <class name="TestClass">
+        <test-method status="PASS" signature="initiateDriver(java.lang.String)[pri:0, instance:TestClass@31ef45e3]" name="initiateDriver" is-config="true" duration-ms="14048" started-at="2022-06-25T20:25:28 ICT" finished-at="2022-06-25T20:25:42 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9002]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateDriver -->
+        <test-method status="PASS" signature="Test1(java.lang.String)[pri:0, instance:TestClass@31ef45e3]" name="Test1" duration-ms="12869" started-at="2022-06-25T20:25:42 ICT" finished-at="2022-06-25T20:25:55 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:TestClass@31ef45e3]" name="quitDriver" is-config="true" duration-ms="3799" started-at="2022-06-25T20:25:55 ICT" finished-at="2022-06-25T20:25:59 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- TestClass -->
+    </test> <!-- Firefox Test -->
+  </suite> <!-- SeleniumGridDocker -->
+</testng-results>
