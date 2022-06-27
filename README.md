@@ -4,7 +4,7 @@ view the same using VNC Viewer
 
 Steps
 
-1. docker-compose -f docker-compose-v3.yml up
+1. docker-compose -f ./docker-compose.yaml up
 
 This will install selenium hub , chrome , edge , firefox and create a network. Also it will regster nodes with the hub .
 once done , the smae can be seen at 
